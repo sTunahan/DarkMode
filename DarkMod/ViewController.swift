@@ -9,17 +9,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Uygulamamın Dark modunda değişmemesini istiyorsak Bunu Kullanırız.
-        overrideUserInterfaceStyle = .light // Telefon mod una hiç bakmadan Kullanılan View Ekranını Direkt Light Moda çevirecektir.Tek tek Her sayfa ıcın yazmak yerıne "iNFO" Ya gelip Burada + ya bazıp "user Interface Style" yazıp sag tarafına Dark veya Light yazarız.
-       
+        //If we want my app to be in Dark mode We Use This.
+        overrideUserInterfaceStyle = .light
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        // Kullanıcı Telefonu Hangi modda kullandığını anlıyabilmek için kullanıcı arayüz stiline ihtiyacımız var  bunuda tradeCollection dıye bır yerden alırız.
         
-        let userInterfaceStyle = traitCollection.userInterfaceStyle
         
-        // button rengımız dark ve lıght da mavı renk gozukur. Bız bunu dark modda Sarı , light modda kırmızı gözüksün demek ıstersek kullanırız.
+        let userInterfaceStyle = traitCollection.userInterfaceStyle // Used to detect phone mode
+        
         if userInterfaceStyle == .dark {
             changeButton.tintColor = UIColor.yellow
         }else {
@@ -28,14 +26,12 @@ class ViewController: UIViewController {
         }
     }
 
-    // telefon ayarlarından dark modu acınca , sonra tekrar uygulamayı acınca algılamıyor.Degısıklıgı algıladıgınca calısacak bir method içine kodları yazmamız gerekiyor.
-    //Her trait degıstırıldıgınde Bu method cagırılır.Sürekli Uygulamayı Dinliyor
+    
+    //This method is called every time the trait is changed. It is constantly listening to the application.
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        <#code#>  // Kullanıcı Telefonu Hangi modda kullandığını anlıyabilmek için kullanıcı arayüz stiline ihtiyacımız var  bunuda tradeCollection dıye bır yerden alırız.
-        
+       
         let userInterfaceStyle = traitCollection.userInterfaceStyle
         
-        // button rengımız dark ve lıght da mavı renk gozukur. Bız bunu dark modda Sarı , light modda kırmızı gözüksün demek ıstersek kullanırız.
         if userInterfaceStyle == .dark {
             changeButton.tintColor = UIColor.yellow
         }else {

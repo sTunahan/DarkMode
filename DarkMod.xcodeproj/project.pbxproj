@@ -13,7 +13,6 @@
 		28CB2F2D2863141700137146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CB2F2B2863141700137146 /* Main.storyboard */; };
 		28CB2F2F2863141A00137146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CB2F2E2863141A00137146 /* Assets.xcassets */; };
 		28CB2F322863141A00137146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CB2F302863141A00137146 /* LaunchScreen.storyboard */; };
-		28CB2F3A286315CF00137146 /* myReadme in Resources */ = {isa = PBXBuildFile; fileRef = 28CB2F39286315CE00137146 /* myReadme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		28CB2F2E2863141A00137146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28CB2F312863141A00137146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28CB2F332863141A00137146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28CB2F39286315CE00137146 /* myReadme */ = {isa = PBXFileReference; lastKnownFileType = text; path = myReadme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				28CB2F2E2863141A00137146 /* Assets.xcassets */,
 				28CB2F302863141A00137146 /* LaunchScreen.storyboard */,
 				28CB2F332863141A00137146 /* Info.plist */,
-				28CB2F39286315CE00137146 /* myReadme */,
 			);
 			path = DarkMod;
 			sourceTree = "<group>";
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CB2F3A286315CF00137146 /* myReadme in Resources */,
 				28CB2F322863141A00137146 /* LaunchScreen.storyboard in Resources */,
 				28CB2F2F2863141A00137146 /* Assets.xcassets in Resources */,
 				28CB2F2D2863141700137146 /* Main.storyboard in Resources */,
