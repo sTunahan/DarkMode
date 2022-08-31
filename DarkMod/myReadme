@@ -1,7 +1,0 @@
-
-burada sadece buttonla dıger sayfaya gecısı yaptık cunku degısıklıgı gormek ıcın baska bır işlem yapmıyoruz dark modu  aktifleştirmek ve özelleştirmek için,Dark Modu Telfon ayarlarından aktif veya pasif hale getirerek yapıyoruz.Biz burada kullanıcı telefon ayarlarındaki Modu değiştirdiğinde uygulamamıza kendi istediğimiz sekilde renkler verebilmek için felan kodu yazarız.
-
-dark modunda spesifc bazı şeyleri kendimiz özel yapmak istediğimizi belirtmek istediğimizde
-
-
-#Bütün Uygulama , bütün ekrana tek tek kod yazmak yerine "iNFO" ya geliyoruz.Burada + ya bazıp "user Interface Style" yazıp sag tarafına Dark veya Light yazarız.
